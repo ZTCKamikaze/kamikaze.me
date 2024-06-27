@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dein Weg zum Führerschein</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="assets/Logo.png" alt="Logo" height="100"></a>
+    </header>
+
+    <div class="topnav">
+        <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+        <div class="menu" id="menu">
+            <a href="index.html">Reihenfolge</a>
+            <a href="step1.html">Schritt 1</a>
+            <a href="step2.html">Schritt 2</a>
+            <a class="active" href="step3.html">Schritt 3</a>
+            <a href="step4.html">Schritt 4</a>
+            <a href="step5.html">Schritt 5</a>
+            <a href="step6.html">Schritt 6</a>
+            <a href="step7.html">Schritt 7</a>
+            <a href="step8.html">Schritt 8</a>
+        </div>
+    </div>
+    <div class="content">
+        <aside class="aside">
+            <h2>Inhalt</h2>
+            <ul>
+                <li><a href="index.html">Reihenfolge</a></li>
+                <li><a href="step1.html">Schritt 1</a></li>
+                <li><a href="step2.html">Schritt 2</a></li>
+                <li><a href="step3.html">Schritt 3</a></li>
+                <li><a href="step4.html">Schritt 4</a></li>
+                <li><a href="step5.html">Schritt 5</a></li>
+                <li><a href="step6.html">Schritt 6</a></li>
+                <li><a href="step7.html">Schritt 7</a></li>
+                <li><a href="step8.html">Schritt 8</a></li>
+            </ul>
+        </aside>
+        <main class="main">
+            <h1>Sehtest</h1>
+            <br>
+            <p>Der Sehtest testet Ihr Sehvermögen und ob Sie auf der Strasse alles sehen könnten falls etwas passiert.
+            </p>
+            <p>Der Sehtest gilt für 2 Jahre, danach müssen Sie ihn nocheinmal machen. Den Sehtest kann man fast bei
+                jedem Optiker machen, ich empfehle Ihnen einer zu nehmen der Ihnen gefällt oder in der Nähe ist. Der
+                Sehtest geht nur 5 Minuten und kostet nur 20 CHF.<br>
+                Vergessen Sie nicht das Formular mitzunehmen, denn der Optiker muss Ihre Ergebnisse vom Sehtest direkt
+                auf das Formular eintragen.<br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            <div class="image-container">
+                <img class="responsive-image" src="assets/sehtest.jpg" alt="Bild Sehtest" height="450">
+                <p><i>Bild von <a href="https://unsplash.com/de" target="_blank">Unsplash</a></i></p>
+            </div>
+
+        </main>
+    </div>
+    <footer>
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href="https://github.com/ZTCKamikaze" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+            </div>
+        </div>
+        <div class="footerNav">
+            <ul>
+                <li><a href="index.html">Reihenfolge</a></li>
+                <li><a href="step2.html">Schritt 2</a></li>
+                <li><a href="step4.html">Schritt 4</a></li>
+            </ul>
+        </div>
+
+
+        <div class="footerBottom">
+
+            <p>Copyright &copy;2024; Designed by <span class="designer">Mika Olmes</span></p>
+            <p>Alle Bilder die Sie auf dieser Seite finden sind von <a href="https://unsplash.com/de" target="_blank"
+                    class="link"><i>Unsplash</i></a> und <a href="https://pixabay.com/de/" target="_blank"
+                    class="link"><i>Pixabay</i></a></p>
+
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            if (menu.style.display === 'block') {
+                menu.style.display = 'none';
+            } else {
+                menu.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+
+
+
+
+
+</html>

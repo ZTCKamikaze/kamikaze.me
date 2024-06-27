@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dein Weg zum Führerschein</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="assets/Logo.png" alt="Logo" height="100"></a>
+    </header>
+
+    <div class="topnav">
+        <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+        <div class="menu" id="menu">
+            <a href="index.html">Reihenfolge</a>
+            <a href="step1.html">Schritt 1</a>
+            <a href="step2.html">Schritt 2</a>
+            <a href="step3.html">Schritt 3</a>
+            <a href="step4.html">Schritt 4</a>
+            <a class="active" href="step5.html">Schritt 5</a>
+            <a href="step6.html">Schritt 6</a>
+            <a href="step7.html">Schritt 7</a>
+            <a href="step8.html">Schritt 8</a>
+        </div>
+    </div>
+    <div class="content">
+        <aside class="aside">
+            <h2>Inhalt</h2>
+            <ul>
+                <li><a href="index.html">Reihenfolge</a></li>
+                <li><a href="step1.html">Schritt 1</a></li>
+                <li><a href="step2.html">Schritt 2</a></li>
+                <li><a href="step3.html">Schritt 3</a></li>
+                <li><a href="step4.html">Schritt 4</a></li>
+                <li><a href="step5.html">Schritt 5</a></li>
+                <li><a href="step6.html">Schritt 6</a></li>
+                <li><a href="step7.html">Schritt 7</a></li>
+                <li><a href="step8.html">Schritt 8</a></li>
+            </ul>
+
+        </aside>
+        <main class="main">
+            <h1>Gesuch abgeben</h1>
+            <br>
+            <p>Wenn Sie alle Schritte vorher gemacht haben, können Sie jetzt zusammen mit dem <strong>Gesuch</strong>
+                (mit dem Sehtest,
+                Passfoto und den Fragen), Ihr <strong> Nothelfer
+                    Zertifikat</strong>, dass
+                Sie beim absolvieren vom Nothelferkurst bekommen haben, und zu guter Letzt Ihre
+                <strong>Personalien</strong>
+                (Pass, ID usw.) sind ebenfalls ziemlich wichtig mitzunehmen.
+                <br>
+                Um dieses Formular abgeben zu können müssen Sie zu Ihrer Gemeinde vor Ort gehen und dieses Gesuch mit
+                dem
+                Pass und Nothelfer Zertifikat abgeben.<br>
+                Wenn Sie so schnell wie möglich Ihren Führerschein haben möchten, dann rate ich Ihnen 1 Monat oder sogar
+                2 Monate vor Ihrem 17. Lebensjahr an Ihrer Gemeinde abgeben. Jedoch hat jede Gemeinde Ihre andere
+                Geschwindigkeit, deshalb kann es sein das Ihre Gemeinde Ihr Gesuch 2 Monate vor Ihrem 17. Lebnsjahr
+                akzeptieren oder nur 1 Monat. 1 Monat vor Ihrem 17. Lebensjahr ist jedenfalls auf der sicheren
+                Seite.<br>
+                Früher können Sie das Gesuch nicht abgeben, doch später geht immer, passen Sie nur auf, das nicht Ihr
+                Nothelfer Zertifkat oder Ihr Sethtest abläuft, sonst müssen Sie diese nocheimal machen.<br>
+                Beim Abgeben müssen Sie noch eine kleine Gebühr zahlen, die wieder je nach Kanton oder sogar Land anders
+                ist. Dies kann ca. 30 CHF kosten.<br>
+                Danach sollte Sie einen Brief bekommen mit Terminvorschlägen für die Theoretische Prüfung. Am besten
+                fangen Sie schon einmal an zu üben.
+            </p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="image-container">
+                <img class="responsive-image" src="assets/fahrschule.jpg" alt="Bild Fahrschule" height="450">
+                <p><i>Bild von <a href="https://pixabay.com/de/" target="_blank">Pixabay</a></i></p>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href="https://github.com/ZTCKamikaze" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+            </div>
+        </div>
+        <div class="footerNav">
+            <ul>
+                <li><a href="step1.html">Reihenfolge</a></li>
+                <li><a href="step3.html">Schritt 3</a></li>
+                <li><a href="step4.html">Schritt 4</a></li>
+            </ul>
+        </div>
+
+        <div class="footerBottom">
+
+            <p>Copyright &copy;2024; Designed by <span class="designer">Mika Olmes</span></p>
+            <p>Alle Bilder die Sie auf dieser Seite finden sind von <a href="https://unsplash.com/de" target="_blank"
+                    class="link"><i>Unsplash</i></a> und <a href="https://pixabay.com/de/" target="_blank"
+                    class="link"><i>Pixabay</i></a></p>
+
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            if (menu.style.display === 'block') {
+                menu.style.display = 'none';
+            } else {
+                menu.style.display = 'block';
+            }
+        }
+    </script>
+
+</body>
+
+
+
+
+
+</html>
